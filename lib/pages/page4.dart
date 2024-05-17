@@ -15,7 +15,7 @@ class _Page2State extends State<Page2> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Image(
-            image: AssetImage('assets/images/image3.png'),
+            image: AssetImage('assets/images/image4.png'),
           ),
           SizedBox(
             height: 60,

@@ -1,4 +1,7 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'package:homework_36/pages/page2.dart';
 
 void main() {
   runApp(Project());
@@ -7,6 +10,7 @@ void main() {
 class Project extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // timerToNextPage(context);
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -25,7 +29,7 @@ class Project extends StatelessWidget {
   }
 }
 
-// void timerToNextPage(context) {
+// void timerToNextPage(BuildContext context) {
 //   Timer(Duration(seconds: 5), () {
 //     Navigator.of(context).pushReplacement(
 //       MaterialPageRoute(

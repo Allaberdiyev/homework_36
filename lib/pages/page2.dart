@@ -4,33 +4,33 @@ class Page2 extends StatefulWidget {
   const Page2({super.key});
 
   @override
-  State<Page2> createState() => _Page2State();
+  State<Page2> createState() => _Page2();
 }
 
-class _Page2State extends State<Page2> {
+class _Page2 extends State<Page2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Image(
-            image: AssetImage('assets/images/image3.png'),
+          const Image(
+            image: AssetImage('assets/images/image2.png'),
           ),
-          SizedBox(
+          const SizedBox(
             height: 60,
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.all(20),
             child: Text(
               'Set your Schedule',
               style: TextStyle(fontSize: 20),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.all(20),
             child: Text(
               '  Quickly see your upcoming event, task,\n     conference calls, weather, and more',

@@ -1,61 +1,30 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
+// import 'package:homework_36/pages/page2.dart';
 
-void main(List<String> args) {
-  runApp(Project());
-}
+// void main(List<String> args) {
+//   runApp(Welcome());
+// }
 
-class Project extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            const Image(
-              image: AssetImage('assets/images/image2.png'),
-            ),
-            SizedBox(
-              height: 60,
-            ),
-            const Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                'Set your Schedule',
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                '  Quickly see your upcoming event, task,\n     conference calls, weather, and more',
-                style: TextStyle(fontSize: 10),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(30),
-              child: SizedBox(
-                width: double.infinity,
-                height: 60,
-                child: ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
-                    foregroundColor: Colors.white,
-                    textStyle: const TextStyle(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  child: const Text('Get Started'),
-                ),
-              ),
-            )
-          ],
-        ),
-      ),
-    );
-  }
-}
+// class Welcome extends StatefulWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold();
+//   }
+// }
+
+// class _WelcomePageState extends State<SplashPage> {
+//   @override
+//   void initState() {
+//     super.initState();
+
+//     Future.delayed(Duration(seconds: 3), () {
+//       Navigator.of(context).pushReplacement(
+//         MaterialPageRoute(
+//           builder: (ctx) {
+//             return Page2();
+//           },
+//         ),
+//       );
+//     });
+//   }
+// }
